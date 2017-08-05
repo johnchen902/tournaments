@@ -3,7 +3,7 @@
         /* <![CDATA[ */
         line { stroke: black; stroke-width: 1px; }
         polyline { fill: none; stroke: black; stroke-width: 1px; }
-        rect { fill: white; stroke: black; }
+        rect { fill: none; stroke: black; }
         text { text-anchor: middle; }
         /* ]]> */
     </style>
