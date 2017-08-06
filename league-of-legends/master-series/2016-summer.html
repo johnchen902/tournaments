@@ -8,6 +8,11 @@
       table { border-collapse: collapse; }
       table, tr, th, td { border: 1px solid black; }
       th, td { text-align: center; }
+      .crosstablehiddenmsg { display: none; }
+      @media only screen and (max-width: 700px) {
+        td:nth-of-type(n+5), th:nth-of-type(n+5) { display: none; }
+        .crosstablehiddenmsg { display: block; }
+      }
     </style>
   </head>
   <body>
@@ -52,6 +57,9 @@
       </table>
       <!--Tiebreaker: M17 1 : 0 HKE-->
       <!--TBD 2 : 1 TBD, no tiebreaker needed-->
+      <section class="crosstablehiddenmsg">
+        <em>Cross table hidden due to insufficient space.</em>
+      </section>
     </section>
     <section>
       <h2>Playoffs</h2>

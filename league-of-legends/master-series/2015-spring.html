@@ -8,7 +8,11 @@
       table { border-collapse: collapse; }
       table, tr, th, td { border: 1px solid black; }
       th, td { text-align: center; }
-      .group { display: inline-block; margin-left: 1em; margin-right: 1em; vertical-align: top; }
+      .crosstablehiddenmsg { display: none; }
+      @media only screen and (max-width: 470px) {
+        td:nth-of-type(n+4), th:nth-of-type(n+4) { display: none; }
+        .crosstablehiddenmsg { display: block; }
+      }
     </style>
   </head>
   <body>
@@ -53,6 +57,9 @@
       </table>
       <!--Tiebreaker: TBD 1 : 0 TBD-->
       MSE 2 : 1 NGU, no tiebreaker needed
+      <section class="crosstablehiddenmsg">
+        <em>Cross table hidden due to insufficient space.</em>
+      </section>
     </section>
     <section>
       <h2>Playoffs</h2>
