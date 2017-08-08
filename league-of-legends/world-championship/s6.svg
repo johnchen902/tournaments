@@ -1,20 +1,16 @@
 <svg width="360" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style>
         /* <![CDATA[ */
-        line { stroke: black; stroke-width: 1px; }
-        polyline { fill: none; stroke: black; stroke-width: 1px; }
-        rect { fill: none; stroke: black; }
+        #box, #line1, #line2 { fill: none; stroke: black; stroke-width: 1px; }
         text { text-anchor: middle; }
         /* ]]> */
     </style>
     <defs>
-        <g id="box">
-            <rect x="0" y="0" width="100" height="50"/>
-            <line x1="0" y1="25" x2="100" y2="25"/>
-            <line x1="75" y1="0" x2="75" y2="50"/>
-        </g>
+        <path id="box" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
+        <path id="line1" d="M0 0H12.5V15H25M0 55H12.5V40H25"/>
+        <path id="line2" d="M0 0H12.5V42.5H25M0 110H12.5V67.5H25"/>
     </defs>
-    <g transform="translate(5, 5)">
+    <g transform="translate(5 5)">
         <title>Quarterfinal #1</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">SKT</text>
@@ -22,7 +18,7 @@
         <text x="37.5" y="43">RNG</text>
         <text x="87.5" y="43">1</text>
     </g>
-    <g transform="translate(5, 60)">
+    <g transform="translate(5 60)">
         <title>Quarterfinal #2</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">ROX</text>
@@ -30,7 +26,7 @@
         <text x="37.5" y="43">EDG</text>
         <text x="87.5" y="43">1</text>
     </g>
-    <g transform="translate(5, 115)">
+    <g transform="translate(5 115)">
         <title>Quarterfinal #3</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">SSG</text>
@@ -38,7 +34,7 @@
         <text x="37.5" y="43">C9</text>
         <text x="87.5" y="43">0</text>
     </g>
-    <g transform="translate(5, 170)">
+    <g transform="translate(5 170)">
         <title>Quarterfinal #4</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">H2K</text>
@@ -46,15 +42,9 @@
         <text x="37.5" y="43">ANX</text>
         <text x="87.5" y="43">0</text>
     </g>
-    <g transform="translate(105, 30)">
-        <polyline points="0, 0 12.5, 0 12.5,15 25,15"/>
-        <polyline points="0,55 12.5,55 12.5,40 25,40"/>
-    </g>
-    <g transform="translate(105, 140)">
-        <polyline points="0, 0 12.5, 0 12.5,15 25,15"/>
-        <polyline points="0,55 12.5,55 12.5,40 25,40"/>
-    </g>
-    <g transform="translate(130, 32.5)">
+    <use xlink:href="#line1" transform="translate(105 30)"/>
+    <use xlink:href="#line1" transform="translate(105 140)"/>
+    <g transform="translate(130 32.5)">
         <title>Semifinal #1</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">SKT</text>
@@ -62,7 +52,7 @@
         <text x="37.5" y="43">ROX</text>
         <text x="87.5" y="43">2</text>
     </g>
-    <g transform="translate(130, 142.5)">
+    <g transform="translate(130 142.5)">
         <title>Semifinal #2</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">SSG</text>
@@ -70,11 +60,8 @@
         <text x="37.5" y="43">H2K</text>
         <text x="87.5" y="43">0</text>
     </g>
-    <g transform="translate(230, 0)">
-        <polyline points="0, 57.5  12.5, 57.5  12.5,100 25,100"/>
-        <polyline points="0,167.5  12.5,167.5  12.5,125 25,125"/>
-    </g>
-    <g transform="translate(255, 87.5)">
+    <use xlink:href="#line2" transform="translate(230 57.5)"/>
+    <g transform="translate(255 87.5)">
         <title>Final</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">SKT</text>
@@ -83,4 +70,3 @@
         <text x="87.5" y="43">2</text>
     </g>
 </svg>
-
