@@ -17,6 +17,7 @@
     <polyline points="12.5,0 12.5,12.5 25,12.5" transform="translate(-7.5, 152.5)"/>
     <polyline points="12.5,0 12.5,12.5 25,12.5" transform="translate(-7.5, 177.5)"/>
     <g transform="translate(17.5, 5)">
+        <title>Relegation #1</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">AAA</text>
         <text x="87.5" y="18">2</text>
@@ -24,6 +25,7 @@
         <text x="87.5" y="43">0</text>
     </g>
     <g transform="translate(17.5, 85)">
+        <title>Relegation #2</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">CLG</text>
         <text x="87.5" y="18">1</text>
@@ -31,6 +33,7 @@
         <text x="87.5" y="43">2</text>
     </g>
     <g transform="translate(17.5, 152.5)">
+        <title>Fifth place match</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">TGD</text>
         <text x="87.5" y="18">0</text>
@@ -42,6 +45,7 @@
     <polyline points="12.5,0 12.5,12.5 25,12.5" transform="translate(117.5, 140)"/>
     <polyline points="12.5,0 12.5,12.5 25,12.5" transform="translate(117.5, 165)"/>
     <g transform="translate(142.5, 17.5)">
+        <title>Winners' Semifinal #1</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">AAA</text>
         <text x="87.5" y="18">2</text>
@@ -49,6 +53,7 @@
         <text x="87.5" y="43">0</text>
     </g>
     <g transform="translate(142.5, 72.5)">
+        <title>Winners' Semifinal #2</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">EG</text>
         <text x="87.5" y="18">0</text>
@@ -56,6 +61,7 @@
         <text x="87.5" y="43">2</text>
     </g>
     <g transform="translate(142.5, 140)">
+        <title>Losers' Semifinal</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">TSM</text>
         <text x="87.5" y="18">2</text>
@@ -69,6 +75,7 @@
     <polyline points="12.5,0 12.5,12.5 25,12.5" transform="translate(242.5, 127.5)"/>
     <line x1="0" y1="0" x2="25" y2="0" transform="translate(242.5, 165)"/>
     <g transform="translate(267.5, 45)">
+        <title>Winners' Final</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">AAA</text>
         <text x="87.5" y="18">0</text>
@@ -76,6 +83,7 @@
         <text x="87.5" y="43">2</text>
     </g>
     <g transform="translate(267.5, 127.5)">
+        <title>Losers' Final</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">AAA</text>
         <text x="87.5" y="18">2</text>
@@ -87,6 +95,7 @@
         <polyline points="0,82.5 12.5,82.5 12.5,53.75 25,53.75"/>
     </g>
     <g transform="translate(392.5, 86.25)">
+        <title>Grand Final</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">FNC</text>
         <text x="87.5" y="18">2</text>
