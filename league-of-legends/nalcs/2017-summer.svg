@@ -1,0 +1,63 @@
+<svg width="360" height="170" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        /* <![CDATA[ */
+        #box, .line { fill: none; stroke: black; stroke-width: 1px; }
+        text { text-anchor: middle; }
+        /* ]]> */
+    </style>
+    <defs>
+        <path id="box" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
+    </defs>
+    <g transform="translate(5 30)">
+        <title>Quarterfinal #1</title>
+        <use xlink:href="#box"/>
+        <text x="37.5" y="18">C9</text>
+        <text x="87.5" y="18">0</text>
+        <text x="37.5" y="43">DIG</text>
+        <text x="87.5" y="43">0</text>
+    </g>
+    <g transform="translate(5 85)">
+        <title>Quarterfinal #2</title>
+        <use xlink:href="#box"/>
+        <text x="37.5" y="18">CLG</text>
+        <text x="87.5" y="18">0</text>
+        <text x="37.5" y="43">NV</text>
+        <text x="87.5" y="43">0</text>
+    </g>
+    <path class="line" d="M105 110h12.5v-67.5h12.5M105 55h12.5v42.5h12.5"/>
+    <g transform="translate(130 5)">
+        <title>Semifinal #1</title>
+        <use xlink:href="#box"/>
+        <text x="37.5" y="18">IMT</text>
+        <text x="87.5" y="18">0</text>
+        <text x="37.5" y="43"></text>
+        <text x="87.5" y="43">0</text>
+    </g>
+    <g transform="translate(130 60)">
+        <title>Semifinal #2</title>
+        <use xlink:href="#box"/>
+        <text x="37.5" y="18">TSM</text>
+        <text x="87.5" y="18">0</text>
+        <text x="37.5" y="43"></text>
+        <text x="87.5" y="43">0</text>
+    </g>
+    <path class="line" d="M242.5 115v12.5h12.5"/>
+    <path class="line" d="M242.5 140v12.5h12.5"/>
+    <g transform="translate(255 115)">
+        <title>Third Place Match</title>
+        <use xlink:href="#box"/>
+        <text x="37.5" y="18"></text>
+        <text x="87.5" y="18">0</text>
+        <text x="37.5" y="43"></text>
+        <text x="87.5" y="43">0</text>
+    </g>
+    <path class="line" d="M230 30h12.5v15h12.5M230 85h12.5v-15h12.5"/>
+    <g transform="translate(255 32.5)">
+        <title>Final</title>
+        <use xlink:href="#box"/>
+        <text x="37.5" y="18"></text>
+        <text x="87.5" y="18">0</text>
+        <text x="37.5" y="43"></text>
+        <text x="87.5" y="43">0</text>
+    </g>
+</svg>
