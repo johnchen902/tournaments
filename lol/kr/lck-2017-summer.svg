@@ -13,7 +13,7 @@
         <title>Round 1</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">SKT</text>
-        <text x="87.5" y="18">0</text>
+        <text x="87.5" y="18">2</text>
         <text x="37.5" y="43">AFS</text>
         <text x="87.5" y="43">0</text>
     </g>
@@ -23,17 +23,17 @@
         <use xlink:href="#box"/>
         <text x="37.5" y="18">SSG</text>
         <text x="87.5" y="18">0</text>
-        <text x="37.5" y="43"></text>
-        <text x="87.5" y="43">0</text>
+        <text x="37.5" y="43">SKT</text>
+        <text x="87.5" y="43">3</text>
     </g>
     <use xlink:href="#line1" transform="translate(230 67.5)"/>
     <g transform="translate(255 30)">
         <title>Round 3</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">KT</text>
-        <text x="87.5" y="18">0</text>
-        <text x="37.5" y="43"></text>
-        <text x="87.5" y="43">0</text>
+        <text x="87.5" y="18">2</text>
+        <text x="37.5" y="43">SKT</text>
+        <text x="87.5" y="43">3</text>
     </g>
     <use xlink:href="#line1" transform="translate(355 42.5)"/>
     <g transform="translate(380 5)">
@@ -41,7 +41,7 @@
         <use xlink:href="#box"/>
         <text x="37.5" y="18">LZ</text>
         <text x="87.5" y="18">0</text>
-        <text x="37.5" y="43"></text>
+        <text x="37.5" y="43">SKT</text>
         <text x="87.5" y="43">0</text>
     </g>
 </svg>
