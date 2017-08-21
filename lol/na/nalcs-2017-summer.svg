@@ -20,9 +20,9 @@
         <title>Quarterfinal #2</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">CLG</text>
-        <text x="87.5" y="18">0</text>
+        <text x="87.5" y="18">3</text>
         <text x="37.5" y="43">NV</text>
-        <text x="87.5" y="43">0</text>
+        <text x="87.5" y="43">2</text>
     </g>
     <path class="line" d="M105 110h12.5v-67.5h12.5M105 55h12.5v42.5h12.5"/>
     <g transform="translate(130 5)">
@@ -30,7 +30,7 @@
         <use xlink:href="#box"/>
         <text x="37.5" y="18">IMT</text>
         <text x="87.5" y="18">0</text>
-        <text x="37.5" y="43"></text>
+        <text x="37.5" y="43">CLG</text>
         <text x="87.5" y="43">0</text>
     </g>
     <g transform="translate(130 60)">
@@ -38,7 +38,7 @@
         <use xlink:href="#box"/>
         <text x="37.5" y="18">TSM</text>
         <text x="87.5" y="18">0</text>
-        <text x="37.5" y="43"></text>
+        <text x="37.5" y="43">DIG</text>
         <text x="87.5" y="43">0</text>
     </g>
     <path class="line" d="M242.5 115v12.5h12.5"/>
