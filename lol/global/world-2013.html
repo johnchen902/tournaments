@@ -7,7 +7,8 @@
     <style>
       table { border-collapse: collapse; }
       th, td { border: 1px solid black; text-align: center; }
-      .group { display: inline-block; margin-left: 1em; margin-right: 1em; vertical-align: top; }
+      .groups { display: flex; flex-wrap: wrap; }
+      .groups > * { margin-right: 1em; }
     </style>
   </head>
   <body>
@@ -27,7 +28,8 @@
     </section>
     <section>
       <h2>Group Stage</h2>
-      <section class="group">
+      <div class="groups">
+      <section>
         <h3>Group A</h3>
         <table>
           <tr><th>Place</th><th>Team</th><th>Win - Lost</th></tr>
@@ -38,7 +40,7 @@
           <tr><td>5<sup>th</sup></td><td>GG.EU</td><td>1 - 7</td></tr>
         </table>
       </section>
-      <section class="group">
+      <section>
         <h3>Group B</h3>
         <table>
           <tr><th>Place</th><th>Team</th><th>Win - Lost</th></tr>
@@ -53,6 +55,7 @@
           SSO 0 : 1 GMB
         </section>
       </section>
+      </div>
     </section>
     <section>
       <h2>Bracket Stage</h2>

@@ -7,7 +7,8 @@
     <style>
       table { border-collapse: collapse; }
       th, td { border: 1px solid black; text-align: center; }
-      .group { display: inline-block; margin-left: 1em; margin-right: 1em; vertical-align: top; }
+      .groups { display: flex; flex-wrap: wrap; }
+      .groups > * { margin-right: 1em; }
     </style>
   </head>
   <body>
@@ -27,7 +28,8 @@
     </section>
     <section>
       <h2>Group Stage</h2>
-      <section class="group">
+      <div class="groups">
+      <section>
         <h3>Group A</h3>
         <table>
           <tr><th>Place</th><th>Team</th><th>Win - Lost</th></tr>
@@ -41,7 +43,7 @@
           ROX 1 : 0 ANX
         </section>
       </section>
-      <section class="group">
+      <section>
         <h3>Group B</h3>
         <table>
           <tr><th>Place</th><th>Team</th><th>Win - Lost</th></tr>
@@ -55,7 +57,7 @@
           IM won head-to-head
         </section>
       </section>
-      <section class="group">
+      <section>
         <h3>Group C</h3>
         <table>
           <tr><th>Place</th><th>Team</th><th>Win - Lost</th></tr>
@@ -69,7 +71,7 @@
           H2K 1 : 0 EDG
         </section>
       </section>
-      <section class="group">
+      <section>
         <h3>Group D</h3>
         <table>
           <tr><th>Place</th><th>Team</th><th>Win - Lost</th></tr>
@@ -83,6 +85,7 @@
           RNG won head-to-head
         </section>
       </section>
+      </div>
     </section>
     <section>
       <h2>Knockout Stage</h2>
