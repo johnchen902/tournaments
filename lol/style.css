@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+.groups {
+    display: flex;
+    flex-wrap: wrap;
+}
+.groups > * {
+    margin-right: 1em;
+}
