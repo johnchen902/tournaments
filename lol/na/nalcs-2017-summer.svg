@@ -37,9 +37,9 @@
         <title>Semifinal #2</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">TSM</text>
-        <text x="87.5" y="18">0</text>
+        <text x="87.5" y="18">3</text>
         <text x="37.5" y="43">DIG</text>
-        <text x="87.5" y="43">0</text>
+        <text x="87.5" y="43">1</text>
     </g>
     <path class="line" d="M242.5 115v12.5h12.5"/>
     <path class="line" d="M242.5 140v12.5h12.5"/>
@@ -48,7 +48,7 @@
         <use xlink:href="#box"/>
         <text x="37.5" y="18">CLG</text>
         <text x="87.5" y="18">0</text>
-        <text x="37.5" y="43"></text>
+        <text x="37.5" y="43">DIG</text>
         <text x="87.5" y="43">0</text>
     </g>
     <path class="line" d="M230 30h12.5v15h12.5M230 85h12.5v-15h12.5"/>
@@ -57,7 +57,7 @@
         <use xlink:href="#box"/>
         <text x="37.5" y="18">IMT</text>
         <text x="87.5" y="18">0</text>
-        <text x="37.5" y="43"></text>
+        <text x="37.5" y="43">TSM</text>
         <text x="87.5" y="43">0</text>
     </g>
 </svg>
