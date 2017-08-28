@@ -8,21 +8,6 @@
       table { border-collapse: collapse; }
       table, tr, th, td { border: 1px solid black; }
       th, td { text-align: center; }
-      .gamecrosstablehiddenmsg { display: none; }
-      .crosstablehiddenmsg { display: none; }
-      @media only screen and (max-width: 1050px) {
-        .tr1 th:nth-of-type(n+7) { display: none; }
-        .tr2 th:nth-of-type(n+11) { display: none; }
-        td:nth-of-type(n+16) { display: none; }
-        .gamecrosstablehiddenmsg { display: block; }
-      }
-      @media only screen and (max-width: 670px) {
-        .tr1 th:nth-of-type(n+6) { display: none; }
-        .tr2 th { display: none; }
-        td:nth-of-type(n+6) { display: none; }
-        .gamecrosstablehiddenmsg { display: none; }
-        .crosstablehiddenmsg { display: block; }
-      }
     </style>
   </head>
   <body>
@@ -30,25 +15,18 @@
     <section>
       <h2>Regular Season</h2>
       <table>
-        <tr class="tr1"><th rowspan="2">Place</th><th rowspan="2">Team</th><th rowspan="2">Series<br>Win &ndash; Lose</th><th rowspan="2">Games<br>Win &ndash; Lose</th><th rowspan="2">Games<br>%</th><th colspan="10">Series</th><th colspan="10">Games</th></tr>
-        <tr class="tr2">                                                                              <th>    TSM    </th><th>    C9     </th><th>    P1     </th><th>    CLG    </th><th>    FLY    </th><th>    DIG    </th><th>    IMT    </th><th>    FOX    </th><th>    TL     </th><th>    NV     </th><th>    TSM    </th><th>    C9     </th><th>    P1     </th><th>    CLG    </th><th>    FLY    </th><th>    DIG    </th><th>    IMT    </th><th>    FOX    </th><th>    TL     </th><th>    NV     </th></tr>
-        <tr><td>1<sup>st</sup></td><td>TSM</td><td>15 &ndash; 3</td><td>31 &ndash; 16</td><td>66%</td><td>           </td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>           </td><td>2 &ndash; 3</td><td>4 &ndash; 1</td><td>4 &ndash; 1</td><td>4 &ndash; 2</td><td>4 &ndash; 1</td><td>4 &ndash; 2</td><td>2 &ndash; 2</td><td>3 &ndash; 3</td><td>4 &ndash; 1</td></tr>
-        <tr><td>2<sup>nd</sup></td><td>C9</td><td>14 &ndash; 4</td><td>31 &ndash; 13</td><td>70%</td> <td>1 &ndash; 1</td><td>           </td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>3 &ndash; 2</td><td>           </td><td>2 &ndash; 2</td><td>3 &ndash; 3</td><td>4 &ndash; 1</td><td>4 &ndash; 1</td><td>3 &ndash; 2</td><td>4 &ndash; 0</td><td>4 &ndash; 1</td><td>4 &ndash; 1</td></tr>
-        <tr><td>3<sup>rd</sup></td><td>P1</td><td>11 &ndash; 7</td><td>26 &ndash; 15</td><td>63%</td> <td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>           </td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>1 &ndash; 4</td><td>2 &ndash; 2</td><td>           </td><td>2 &ndash; 4</td><td>2 &ndash; 2</td><td>3 &ndash; 3</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td></tr>
-        <tr><td>4<sup>th</sup></td><td>CLG</td><td>10 &ndash; 8</td><td>22 &ndash; 22</td><td>50%</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>           </td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>1 &ndash; 4</td><td>3 &ndash; 3</td><td>4 &ndash; 2</td><td>           </td><td>2 &ndash; 2</td><td>2 &ndash; 2</td><td>2 &ndash; 3</td><td>2 &ndash; 2</td><td>2 &ndash; 3</td><td>4 &ndash; 1</td></tr>
-        <tr><td>5<sup>th</sup></td><td>FLY</td><td>9 &ndash; 9</td><td>22 &ndash; 21</td><td>51%</td> <td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>           </td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 4</td><td>1 &ndash; 4</td><td>2 &ndash; 2</td><td>2 &ndash; 2</td><td>           </td><td>2 &ndash; 2</td><td>2 &ndash; 2</td><td>3 &ndash; 2</td><td>4 &ndash; 2</td><td>4 &ndash; 1</td></tr>
-        <tr><td>6<sup>th</sup></td><td>DIG</td><td>9 &ndash; 9</td><td>22 &ndash; 22</td><td>50%</td> <td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>           </td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>1 &ndash; 4</td><td>1 &ndash; 4</td><td>3 &ndash; 3</td><td>2 &ndash; 2</td><td>2 &ndash; 2</td><td>           </td><td>2 &ndash; 2</td><td>3 &ndash; 3</td><td>4 &ndash; 1</td><td>4 &ndash; 1</td></tr>
-        <tr><td>7<sup>th</sup></td><td>IMT</td><td>8 &ndash; 10</td><td>21 &ndash; 23</td><td>48%</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>           </td><td>2 &ndash; 0</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 4</td><td>2 &ndash; 3</td><td>0 &ndash; 4</td><td>3 &ndash; 2</td><td>2 &ndash; 2</td><td>2 &ndash; 2</td><td>           </td><td>4 &ndash; 1</td><td>3 &ndash; 2</td><td>3 &ndash; 3</td></tr>
-        <tr><td>8<sup>th</sup></td><td>FOX</td><td>6 &ndash; 12</td><td>15 &ndash; 28</td><td>35%</td><td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>           </td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 2</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>2 &ndash; 2</td><td>2 &ndash; 3</td><td>3 &ndash; 3</td><td>1 &ndash; 4</td><td>           </td><td>3 &ndash; 3</td><td>2 &ndash; 3</td></tr>
-        <tr><td>9<sup>th</sup></td><td>TL</td><td>5 &ndash; 13</td><td>17 &ndash; 30</td><td>36%</td> <td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>           </td><td>1 &ndash; 1</td><td>3 &ndash; 3</td><td>1 &ndash; 4</td><td>0 &ndash; 4</td><td>3 &ndash; 2</td><td>2 &ndash; 4</td><td>1 &ndash; 4</td><td>2 &ndash; 3</td><td>3 &ndash; 3</td><td>           </td><td>2 &ndash; 3</td></tr>
-        <tr><td>10<sup>th</sup></td><td>NV</td><td>3 &ndash; 15</td><td>14 &ndash; 31</td><td>31%</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>           </td><td>1 &ndash; 4</td><td>1 &ndash; 4</td><td>0 &ndash; 4</td><td>1 &ndash; 4</td><td>1 &ndash; 4</td><td>1 &ndash; 4</td><td>3 &ndash; 3</td><td>3 &ndash; 2</td><td>3 &ndash; 2</td><td>           </td></tr>
+        <tr><th>Place</th><th>Team</th><th>Series<br>Win &ndash; Lose</th><th>Games<br>Win &ndash; Lose</th><th>Games<br>%</th></tr>
+        <tr><td>1<sup>st</sup></td><td>TSM</td><td>15 &ndash; 3</td><td>31 &ndash; 16</td><td>66%</td></tr>
+        <tr><td>2<sup>nd</sup></td><td>C9</td><td>14 &ndash; 4</td><td>31 &ndash; 13</td><td>70%</td></tr>
+        <tr><td>3<sup>rd</sup></td><td>P1</td><td>11 &ndash; 7</td><td>26 &ndash; 15</td><td>63%</td></tr>
+        <tr><td>4<sup>th</sup></td><td>CLG</td><td>10 &ndash; 8</td><td>22 &ndash; 22</td><td>50%</td></tr>
+        <tr><td>5<sup>th</sup></td><td>FLY</td><td>9 &ndash; 9</td><td>22 &ndash; 21</td><td>51%</td></tr>
+        <tr><td>6<sup>th</sup></td><td>DIG</td><td>9 &ndash; 9</td><td>22 &ndash; 22</td><td>50%</td></tr>
+        <tr><td>7<sup>th</sup></td><td>IMT</td><td>8 &ndash; 10</td><td>21 &ndash; 23</td><td>48%</td></tr>
+        <tr><td>8<sup>th</sup></td><td>FOX</td><td>6 &ndash; 12</td><td>15 &ndash; 28</td><td>35%</td></tr>
+        <tr><td>9<sup>th</sup></td><td>TL</td><td>5 &ndash; 13</td><td>17 &ndash; 30</td><td>36%</td></tr>
+        <tr><td>10<sup>th</sup></td><td>NV</td><td>3 &ndash; 15</td><td>14 &ndash; 31</td><td>31%</td></tr>
       </table>
-      <section class="gamecrosstablehiddenmsg">
-        <em>Game cross table hidden due to insufficient space.</em>
-      </section>
-      <section class="crosstablehiddenmsg">
-        <em>Cross table hidden due to insufficient space.</em>
-      </section>
     </section>
     <section>
       <h2>Playoffs</h2>

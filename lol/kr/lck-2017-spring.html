@@ -8,21 +8,6 @@
       table { border-collapse: collapse; }
       table, tr, th, td { border: 1px solid black; }
       th, td { text-align: center; }
-      .gamecrosstablehiddenmsg { display: none; }
-      .crosstablehiddenmsg { display: none; }
-      @media only screen and (max-width: 1050px) {
-        .tr1 th:nth-of-type(n+7) { display: none; }
-        .tr2 th:nth-of-type(n+11) { display: none; }
-        td:nth-of-type(n+16) { display: none; }
-        .gamecrosstablehiddenmsg { display: block; }
-      }
-      @media only screen and (max-width: 670px) {
-        .tr1 th:nth-of-type(n+6) { display: none; }
-        .tr2 th { display: none; }
-        td:nth-of-type(n+6) { display: none; }
-        .gamecrosstablehiddenmsg { display: none; }
-        .crosstablehiddenmsg { display: block; }
-      }
     </style>
   </head>
   <body>
@@ -30,25 +15,18 @@
     <section>
       <h2>Regular Season</h2>
       <table>
-        <tr class="tr1"><th rowspan="2">Place</th><th rowspan="2">Team</th><th rowspan="2">Series<br>Win &ndash; Lose</th><th rowspan="2">Games<br>Win &ndash; Lose</th><th rowspan="2">Points</th><th colspan="10">Series</th><th colspan="10">Games</th></tr>
-        <tr class="tr2">                                                                                     <th>    SKT    </th><th>    SSG    </th><th>    KT     </th><th>    AFS    </th><th>    MVP    </th><th>    ROX    </th><th>    LZ     </th><th>    BBQ    </th><th>    JAG    </th><th>    KDM    </th><th>    SKT    </th><th>    SSG    </th><th>    KT     </th><th>    AFS    </th><th>    MVP    </th><th>    ROX    </th><th>    LZ     </th><th>    BBQ    </th><th>    JAG    </th><th>    KDM    </th></tr>
-        <tr><td>1<sup>st</sup></td><td>SKT</td><td>16 &ndash; 2</td><td>32 &ndash; 10</td><td>+22</td>       <td>           </td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>           </td><td>2 &ndash; 2</td><td>4 &ndash; 2</td><td>2 &ndash; 3</td><td>4 &ndash; 0</td><td>4 &ndash; 1</td><td>4 &ndash; 2</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td></tr>
-        <tr><td>2<sup>nd</sup></td><td>SSG</td><td>14 &ndash; 4</td><td>30 &ndash; 12</td><td>+17</td>       <td>1 &ndash; 1</td><td>           </td><td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 2</td><td>           </td><td>2 &ndash; 3</td><td>2 &ndash; 4</td><td>4 &ndash; 0</td><td>4 &ndash; 1</td><td>4 &ndash; 1</td><td>4 &ndash; 1</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td></tr>
-        <tr><td>3<sup>rd</sup></td><td>KT</td><td>12 &ndash; 6</td><td>29 &ndash; 15</td><td>+14</td>        <td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>           </td><td>2 &ndash; 0</td><td>0 &ndash; 2</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>1 &ndash; 1</td><td>2 &ndash; 4</td><td>3 &ndash; 2</td><td>           </td><td>4 &ndash; 2</td><td>1 &ndash; 4</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 1</td><td>3 &ndash; 2</td></tr>
-        <tr><td>4<sup>th</sup></td><td>AFS</td><td>10 &ndash; 8</td><td>24 &ndash; 21</td><td>+2</td>        <td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>0 &ndash; 2</td><td>           </td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>3 &ndash; 2</td><td>4 &ndash; 2</td><td>2 &ndash; 4</td><td>           </td><td>3 &ndash; 2</td><td>2 &ndash; 3</td><td>2 &ndash; 2</td><td>2 &ndash; 3</td><td>2 &ndash; 2</td><td>4 &ndash; 1</td></tr>
-        <tr><td>5<sup>th</sup></td><td>MVP</td><td>10 &ndash; 8</td><td>23 &ndash; 21</td><td>+2</td>        <td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>2 &ndash; 0</td><td>1 &ndash; 1</td><td>           </td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>4 &ndash; 1</td><td>2 &ndash; 3</td><td>           </td><td>3 &ndash; 2</td><td>3 &ndash; 2</td><td>3 &ndash; 2</td><td>4 &ndash; 2</td><td>4 &ndash; 1</td></tr>
-        <tr><td>6<sup>th</sup></td><td>ROX</td><td>8 &ndash; 10</td><td>21 &ndash; 26</td><td>&minus;5</td>  <td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>           </td><td>0 &ndash; 2</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>1 &ndash; 4</td><td>1 &ndash; 4</td><td>0 &ndash; 4</td><td>3 &ndash; 2</td><td>2 &ndash; 3</td><td>           </td><td>2 &ndash; 4</td><td>4 &ndash; 2</td><td>4 &ndash; 1</td><td>4 &ndash; 2</td></tr>
-        <tr><td>7<sup>th</sup></td><td>LZ</td><td>8 &ndash; 10</td><td>20 &ndash; 25</td><td>&minus;6</td>   <td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>           </td><td>2 &ndash; 0</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>2 &ndash; 4</td><td>1 &ndash; 4</td><td>0 &ndash; 4</td><td>2 &ndash; 2</td><td>2 &ndash; 3</td><td>4 &ndash; 2</td><td>           </td><td>4 &ndash; 1</td><td>2 &ndash; 3</td><td>3 &ndash; 2</td></tr>
-        <tr><td>8<sup>th</sup></td><td>BBQ</td><td>5 &ndash; 13</td><td>16 &ndash; 28</td><td>&minus;12</td> <td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>           </td><td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>0 &ndash; 4</td><td>1 &ndash; 4</td><td>0 &ndash; 4</td><td>3 &ndash; 2</td><td>2 &ndash; 3</td><td>2 &ndash; 4</td><td>1 &ndash; 4</td><td>           </td><td>3 &ndash; 2</td><td>4 &ndash; 1</td></tr>
-        <tr><td>9<sup>th</sup></td><td>JAG</td><td>4 &ndash; 14</td><td>14 &ndash; 30</td><td>&minus;16</td> <td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>1 &ndash; 1</td><td>           </td><td>1 &ndash; 1</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>1 &ndash; 4</td><td>2 &ndash; 2</td><td>2 &ndash; 4</td><td>1 &ndash; 4</td><td>3 &ndash; 2</td><td>2 &ndash; 3</td><td>           </td><td>3 &ndash; 3</td></tr>
-        <tr><td>10<sup>th</sup></td><td>KDM</td><td>3 &ndash; 15</td><td>12 &ndash; 33</td><td>&minus;19</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td>           </td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>2 &ndash; 3</td><td>1 &ndash; 4</td><td>1 &ndash; 4</td><td>2 &ndash; 4</td><td>2 &ndash; 3</td><td>1 &ndash; 4</td><td>3 &ndash; 3</td><td>           </td></tr>
+        <tr><th>Place</th><th>Team</th><th>Series<br>Win &ndash; Lose</th><th>Games<br>Win &ndash; Lose</th><th>Points</th></tr>
+        <tr><td>1<sup>st</sup></td><td>SKT</td><td>16 &ndash; 2</td><td>32 &ndash; 10</td><td>+22</td></tr>
+        <tr><td>2<sup>nd</sup></td><td>SSG</td><td>14 &ndash; 4</td><td>30 &ndash; 12</td><td>+17</td></tr>
+        <tr><td>3<sup>rd</sup></td><td>KT</td><td>12 &ndash; 6</td><td>29 &ndash; 15</td><td>+14</td></tr>
+        <tr><td>4<sup>th</sup></td><td>AFS</td><td>10 &ndash; 8</td><td>24 &ndash; 21</td><td>+2</td></tr>
+        <tr><td>5<sup>th</sup></td><td>MVP</td><td>10 &ndash; 8</td><td>23 &ndash; 21</td><td>+2</td></tr>
+        <tr><td>6<sup>th</sup></td><td>ROX</td><td>8 &ndash; 10</td><td>21 &ndash; 26</td><td>&minus;5</td></tr>
+        <tr><td>7<sup>th</sup></td><td>LZ</td><td>8 &ndash; 10</td><td>20 &ndash; 25</td><td>&minus;6</td></tr>
+        <tr><td>8<sup>th</sup></td><td>BBQ</td><td>5 &ndash; 13</td><td>16 &ndash; 28</td><td>&minus;12</td></tr>
+        <tr><td>9<sup>th</sup></td><td>JAG</td><td>4 &ndash; 14</td><td>14 &ndash; 30</td><td>&minus;16</td></tr>
+        <tr><td>10<sup>th</sup></td><td>KDM</td><td>3 &ndash; 15</td><td>12 &ndash; 33</td><td>&minus;19</td></tr>
       </table>
-      <section class="gamecrosstablehiddenmsg">
-        <em>Game cross table hidden due to insufficient space.</em>
-      </section>
-      <section class="crosstablehiddenmsg">
-        <em>Cross table hidden due to insufficient space.</em>
-      </section>
       SSG, AFS and LZ each received 1-point penalty.
       <section>
         <h3>4<sup>th</sup> place tiebreaker</h3>

@@ -8,21 +8,6 @@
       table { border-collapse: collapse; }
       table, tr, th, td { border: 1px solid black; }
       th, td { text-align: center; }
-      .gamecrosstablehiddenmsg { display: none; }
-      .crosstablehiddenmsg { display: none; }
-      @media only screen and (max-width: 850px) {
-        .tr1 th:nth-of-type(n+6) { display: none; }
-        .tr2 th:nth-of-type(n+11) { display: none; }
-        td:nth-of-type(n+13) { display: none; }
-        .gamecrosstablehiddenmsg { display: block; }
-      }
-      @media only screen and (max-width: 570px) {
-        .tr1 th:nth-of-type(n+5) { display: none; }
-        .tr2 th:nth-of-type(n+3) { display: none; }
-        td:nth-of-type(n+5) { display: none; }
-        .gamecrosstablehiddenmsg { display: none; }
-        .crosstablehiddenmsg { display: block; }
-      }
     </style>
   </head>
   <body>
@@ -30,23 +15,16 @@
     <section>
       <h2>Regular Season</h2>
       <table>
-        <tr class="tr1"><th rowspan="2">Place</th><th rowspan="2">Team</th><th>Series</th><th>Games</th><th colspan="8">Series</th><th colspan="8">Games</th></tr>
-        <tr class="tr2"><th>Win &ndash; Lose</th><th>Win &ndash; Lose</th>               <th>FW</th>         <th>AHQ</th>        <th>JT</th>         <th>M17</th>        <th>HKE</th>        <th>FB</th>         <th>XG</th>         <th>WS</th>         <th>FW</th>         <th>AHQ</th>        <th>JT</th>         <th>M17</th>        <th>HKE</th>        <th>FB</th>         <th>XG</th>         <th>WS</th>         </tr>
-        <tr><td>1<sup>st</sup></td><td>FW</td><td>14 &ndash; 0</td><td>28 &ndash; 1</td> <td></td>           <td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td></td>           <td>4 &ndash; 1</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td></tr>
-        <tr><td>2<sup>nd</sup></td><td>AHQ</td><td>11 &ndash; 3</td><td>24 &ndash; 6</td><td>0 &ndash; 2</td><td></td>           <td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>1 &ndash; 4</td><td></td>           <td>3 &ndash; 2</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td></tr>
-        <tr><td>3<sup>rd</sup></td><td>JT</td><td>10 &ndash; 4</td><td>21 &ndash; 11</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td></td>           <td>1 &ndash; 1</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>0 &ndash; 4</td><td>2 &ndash; 3</td><td></td>           <td>3 &ndash; 3</td><td>4 &ndash; 0</td><td>4 &ndash; 1</td><td>4 &ndash; 0</td><td>4 &ndash; 0</td></tr>
-        <tr><td>4<sup>th</sup></td><td>M17</td><td>9 &ndash; 5</td><td>19 &ndash; 15</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>1 &ndash; 1</td><td></td>           <td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>3 &ndash; 3</td><td></td>           <td>4 &ndash; 1</td><td>4 &ndash; 2</td><td>4 &ndash; 0</td><td>4 &ndash; 1</td></tr>
-        <tr><td>5<sup>th</sup></td><td>HKE</td><td>6 &ndash; 8</td><td>15 &ndash; 18</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td></td>           <td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>1 &ndash; 4</td><td></td>           <td>4 &ndash; 1</td><td>4 &ndash; 1</td><td>4 &ndash; 0</td></tr>
-        <tr><td>6<sup>th</sup></td><td>FB</td><td>4 &ndash; 10</td><td>12 &ndash; 21</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td></td>           <td>2 &ndash; 0</td><td>2 &ndash; 0</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>1 &ndash; 4</td><td>2 &ndash; 4</td><td>1 &ndash; 4</td><td></td>           <td>4 &ndash; 1</td><td>4 &ndash; 0</td></tr>
-        <tr><td>7<sup>th</sup></td><td>XG</td><td>2 &ndash; 12</td><td>2 &ndash; 12</td> <td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td></td>           <td>2 &ndash; 0</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>1 &ndash; 4</td><td>1 &ndash; 4</td><td></td>           <td>4 &ndash; 1</td></tr>
-        <tr><td>8<sup>th</sup></td><td>WS</td><td>0 &ndash; 14</td><td>2 &ndash; 28</td> <td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 2</td><td>0 &ndash; 0</td><td>0 &ndash; 2</td><td></td>           <td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>1 &ndash; 4</td><td>0 &ndash; 4</td><td>0 &ndash; 4</td><td>1 &ndash; 4</td><td></td>           </tr>
+        <tr><th>Place</th><th>Team</th><th>Series<br>Win &ndash; Lose</th><th>Games<br>Win &ndash; Lose</th></tr>
+        <tr><td>1<sup>st</sup></td><td>FW</td><td>14 &ndash; 0</td><td>28 &ndash; 1</td></tr>
+        <tr><td>2<sup>nd</sup></td><td>AHQ</td><td>11 &ndash; 3</td><td>24 &ndash; 6</td></tr>
+        <tr><td>3<sup>rd</sup></td><td>JT</td><td>10 &ndash; 4</td><td>21 &ndash; 11</td></tr>
+        <tr><td>4<sup>th</sup></td><td>M17</td><td>9 &ndash; 5</td><td>19 &ndash; 15</td></tr>
+        <tr><td>5<sup>th</sup></td><td>HKE</td><td>6 &ndash; 8</td><td>15 &ndash; 18</td></tr>
+        <tr><td>6<sup>th</sup></td><td>FB</td><td>4 &ndash; 10</td><td>12 &ndash; 21</td></tr>
+        <tr><td>7<sup>th</sup></td><td>XG</td><td>2 &ndash; 12</td><td>2 &ndash; 12</td></tr>
+        <tr><td>8<sup>th</sup></td><td>WS</td><td>0 &ndash; 14</td><td>2 &ndash; 28</td></tr>
       </table>
-      <section class="gamecrosstablehiddenmsg">
-        <em>Game cross table hidden due to insufficient space.</em>
-      </section>
-      <section class="crosstablehiddenmsg">
-        <em>Cross table hidden due to insufficient space.</em>
-      </section>
     </section>
     <section>
       <h2>Playoffs</h2>
