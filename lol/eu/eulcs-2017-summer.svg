@@ -47,9 +47,9 @@
         <title>Third Place Match</title>
         <use xlink:href="#box"/>
         <text x="37.5" y="18">FNC</text>
-        <text x="87.5" y="18">0</text>
+        <text x="87.5" y="18">3</text>
         <text x="37.5" y="43">H2K</text>
-        <text x="87.5" y="43">0</text>
+        <text x="87.5" y="43">2</text>
     </g>
     <path class="line" d="M230 30h12.5v15h12.5M230 85h12.5v-15h12.5"/>
     <g transform="translate(255 32.5)">
