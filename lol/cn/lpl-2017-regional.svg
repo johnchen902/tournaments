@@ -18,8 +18,8 @@
         <title>Round 2</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="18">WE</text>
-        <text x="87.5" y="18">0</text>
+        <text x="87.5" y="18">3</text>
         <text x="37.5" y="43">IG</text>
-        <text x="87.5" y="43">0</text>
+        <text x="87.5" y="43">2</text>
     </g>
 </svg>
