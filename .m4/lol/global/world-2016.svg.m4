@@ -1,0 +1,13 @@
+include(`include.m4')dnl
+startsvg(`360', `225')
+box(`5', `5', `Quarterfinal #1', `SKT', `3', `RNG', `1')
+box(`5', `60', `Quarterfinal #2', `ROX', `3', `EDG', `1')
+box(`5', `115', `Quarterfinal #3', `SSG', `3', `C9', `0')
+box(`5', `170', `Quarterfinal #4', `H2K', `3', `ANX', `0')
+join1(`105', `30')
+join1(`105', `140')
+box(`130', `32.5', `Semifinal #1', `SKT', `3', `ROX', `2')
+box(`130', `142.5', `Semifinal #2', `SSG', `3', `H2K', `0')
+join2(`230', `57.5')
+box(`255', `87.5', `Final', `SKT', `3', `SSG', `2')
+endsvg()

@@ -1,18 +1,13 @@
 <svg width="360" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style>
         /* <![CDATA[ */
-        #box, #line1, #line2 { fill: none; stroke: black; stroke-width: 1px; }
+        .line { fill: none; stroke: black; stroke-width: 1px; }
         text { text-anchor: middle; }
         /* ]]> */
     </style>
-    <defs>
-        <path id="box" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <path id="line1" d="M0 0H12.5V15H25M0 55H12.5V40H25"/>
-        <path id="line2" d="M0 0H12.5V42.5H25M0 110H12.5V67.5H25"/>
-    </defs>
     <g transform="translate(5 5)">
         <title>Quarterfinal #1</title>
-        <use xlink:href="#box"/>
+        <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="18">GAB</text>
         <text x="87.5" y="18">0</text>
         <text x="37.5" y="43">SKT</text>
@@ -20,7 +15,7 @@
     </g>
     <g transform="translate(5 60)">
         <title>Quarterfinal #2</title>
-        <use xlink:href="#box"/>
+        <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="18">NJS</text>
         <text x="87.5" y="18">2</text>
         <text x="37.5" y="43">GMB</text>
@@ -28,7 +23,7 @@
     </g>
     <g transform="translate(5 115)">
         <title>Quarterfinal #3</title>
-        <use xlink:href="#box"/>
+        <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="18">RYL</text>
         <text x="87.5" y="18">2</text>
         <text x="37.5" y="43">OMG</text>
@@ -36,17 +31,17 @@
     </g>
     <g transform="translate(5 170)">
         <title>Quarterfinal #4</title>
-        <use xlink:href="#box"/>
+        <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="18">C9</text>
         <text x="87.5" y="18">1</text>
         <text x="37.5" y="43">FNC</text>
         <text x="87.5" y="43">2</text>
     </g>
-    <use xlink:href="#line1" transform="translate(105 30)"/>
-    <use xlink:href="#line1" transform="translate(105 140)"/>
+    <path class="line" d="M105 30h12.5v15h12.5m0 25h-12.5v15h-12.5"/>
+    <path class="line" d="M105 140h12.5v15h12.5m0 25h-12.5v15h-12.5"/>
     <g transform="translate(130 32.5)">
         <title>Semifinal #1</title>
-        <use xlink:href="#box"/>
+        <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="18">SKT</text>
         <text x="87.5" y="18">3</text>
         <text x="37.5" y="43">NJS</text>
@@ -54,16 +49,16 @@
     </g>
     <g transform="translate(130 142.5)">
         <title>Semifinal #2</title>
-        <use xlink:href="#box"/>
+        <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="18">RYL</text>
         <text x="87.5" y="18">3</text>
         <text x="37.5" y="43">FNC</text>
         <text x="87.5" y="43">1</text>
     </g>
-    <use xlink:href="#line2" transform="translate(230 57.5)"/>
+    <path class="line" d="M230 57.5h12.5v42.5h12.5m0 25h-12.5v42.5h-12.5"/>
     <g transform="translate(255 87.5)">
         <title>Final</title>
-        <use xlink:href="#box"/>
+        <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="18">SKT</text>
         <text x="87.5" y="18">3</text>
         <text x="37.5" y="43">RYL</text>
