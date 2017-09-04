@@ -55,8 +55,8 @@
         <title>Final</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="18">IMT</text>
-        <text x="87.5" y="18">0</text>
+        <text x="87.5" y="18">1</text>
         <text x="37.5" y="43">TSM</text>
-        <text x="87.5" y="43">0</text>
+        <text x="87.5" y="43">3</text>
     </g>
 </svg>
