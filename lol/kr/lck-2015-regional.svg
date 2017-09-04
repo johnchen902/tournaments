@@ -2,33 +2,33 @@
     <style>
         /* <![CDATA[ */
         .line { fill: none; stroke: black; stroke-width: 1px; }
-        text { text-anchor: middle; }
+        text { text-anchor: middle; dominant-baseline: central; }
         /* ]]> */
     </style>
     <g transform="translate(5 55)">
         <title>Round 1</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">JAG</text>
-        <text x="87.5" y="18">3</text>
-        <text x="37.5" y="43">NJE</text>
-        <text x="87.5" y="43">0</text>
+        <text x="37.5" y="12.5">JAG</text>
+        <text x="87.5" y="12.5">3</text>
+        <text x="37.5" y="37.5">NJE</text>
+        <text x="87.5" y="37.5">0</text>
     </g>
     <path class="line" d="M105 80h12.5v-12.5h12.5"/>
     <g transform="translate(130 30)">
         <title>Round 2</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">CJE</text>
-        <text x="87.5" y="18">2</text>
-        <text x="37.5" y="43">JAG</text>
-        <text x="87.5" y="43">3</text>
+        <text x="37.5" y="12.5">CJE</text>
+        <text x="87.5" y="12.5">2</text>
+        <text x="37.5" y="37.5">JAG</text>
+        <text x="87.5" y="37.5">3</text>
     </g>
     <path class="line" d="M230 55h12.5v-12.5h12.5"/>
     <g transform="translate(255 5)">
         <title>Final</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">KT</text>
-        <text x="87.5" y="18">3</text>
-        <text x="37.5" y="43">JAG</text>
-        <text x="87.5" y="43">1</text>
+        <text x="37.5" y="12.5">KT</text>
+        <text x="87.5" y="12.5">3</text>
+        <text x="37.5" y="37.5">JAG</text>
+        <text x="87.5" y="37.5">1</text>
     </g>
 </svg>

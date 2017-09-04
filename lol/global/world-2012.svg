@@ -2,66 +2,66 @@
     <style>
         /* <![CDATA[ */
         .line { fill: none; stroke: black; stroke-width: 1px; }
-        text { text-anchor: middle; }
+        text { text-anchor: middle; dominant-baseline: central; }
         /* ]]> */
     </style>
     <g transform="translate(5 5)">
         <title>Quarterfinal #1</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">M5</text>
-        <text x="87.5" y="18">2</text>
-        <text x="37.5" y="43">IG</text>
-        <text x="87.5" y="43">0</text>
+        <text x="37.5" y="12.5">M5</text>
+        <text x="87.5" y="12.5">2</text>
+        <text x="37.5" y="37.5">IG</text>
+        <text x="87.5" y="37.5">0</text>
     </g>
     <g transform="translate(5 60)">
         <title>Quarterfinal #2</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">TPA</text>
-        <text x="87.5" y="18">2</text>
-        <text x="37.5" y="43">NJ</text>
-        <text x="87.5" y="43">0</text>
+        <text x="37.5" y="12.5">TPA</text>
+        <text x="87.5" y="12.5">2</text>
+        <text x="37.5" y="37.5">NJ</text>
+        <text x="87.5" y="37.5">0</text>
     </g>
     <g transform="translate(5 115)">
         <title>Quarterfinal #3</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">TSM</text>
-        <text x="87.5" y="18">0</text>
-        <text x="37.5" y="43">AZF</text>
-        <text x="87.5" y="43">2</text>
+        <text x="37.5" y="12.5">TSM</text>
+        <text x="87.5" y="12.5">0</text>
+        <text x="37.5" y="37.5">AZF</text>
+        <text x="87.5" y="37.5">2</text>
     </g>
     <g transform="translate(5 170)">
         <title>Quarterfinal #4</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">WE</text>
-        <text x="87.5" y="18">1</text>
-        <text x="37.5" y="43">CLG.EU</text>
-        <text x="87.5" y="43">2</text>
+        <text x="37.5" y="12.5">WE</text>
+        <text x="87.5" y="12.5">1</text>
+        <text x="37.5" y="37.5">CLG.EU</text>
+        <text x="87.5" y="37.5">2</text>
     </g>
     <path class="line" d="M105 30h12.5v15h12.5m0 25h-12.5v15h-12.5"/>
     <path class="line" d="M105 140h12.5v15h12.5m0 25h-12.5v15h-12.5"/>
     <g transform="translate(130 32.5)">
         <title>Semifinal #1</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">M5</text>
-        <text x="87.5" y="18">1</text>
-        <text x="37.5" y="43">TPA</text>
-        <text x="87.5" y="43">2</text>
+        <text x="37.5" y="12.5">M5</text>
+        <text x="87.5" y="12.5">1</text>
+        <text x="37.5" y="37.5">TPA</text>
+        <text x="87.5" y="37.5">2</text>
     </g>
     <g transform="translate(130 142.5)">
         <title>Semifinal #2</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">AZF</text>
-        <text x="87.5" y="18">2</text>
-        <text x="37.5" y="43">CLG.EU</text>
-        <text x="87.5" y="43">1</text>
+        <text x="37.5" y="12.5">AZF</text>
+        <text x="87.5" y="12.5">2</text>
+        <text x="37.5" y="37.5">CLG.EU</text>
+        <text x="87.5" y="37.5">1</text>
     </g>
     <path class="line" d="M230 57.5h12.5v42.5h12.5m0 25h-12.5v42.5h-12.5"/>
     <g transform="translate(255 87.5)">
         <title>Final</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">TPA</text>
-        <text x="87.5" y="18">3</text>
-        <text x="37.5" y="43">AZF</text>
-        <text x="87.5" y="43">1</text>
+        <text x="37.5" y="12.5">TPA</text>
+        <text x="87.5" y="12.5">3</text>
+        <text x="37.5" y="37.5">AZF</text>
+        <text x="87.5" y="37.5">1</text>
     </g>
 </svg>

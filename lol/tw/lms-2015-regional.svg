@@ -2,32 +2,32 @@
     <style>
         /* <![CDATA[ */
         .line { fill: none; stroke: black; stroke-width: 1px; }
-        text { text-anchor: middle; }
+        text { text-anchor: middle; dominant-baseline: central; }
         /* ]]> */
     </style>
     <g transform="translate(5 5)">
         <title>Semifinal #1</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">HKE</text>
-        <text x="87.5" y="18">3</text>
-        <text x="37.5" y="43">TPA</text>
-        <text x="87.5" y="43">2</text>
+        <text x="37.5" y="12.5">HKE</text>
+        <text x="87.5" y="12.5">3</text>
+        <text x="37.5" y="37.5">TPA</text>
+        <text x="87.5" y="37.5">2</text>
     </g>
     <g transform="translate(5 60)">
         <title>Semifinal #2</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">FW</text>
-        <text x="87.5" y="18">3</text>
-        <text x="37.5" y="43">MSE</text>
-        <text x="87.5" y="43">0</text>
+        <text x="37.5" y="12.5">FW</text>
+        <text x="87.5" y="12.5">3</text>
+        <text x="37.5" y="37.5">MSE</text>
+        <text x="87.5" y="37.5">0</text>
     </g>
     <path class="line" d="M105 30h12.5v15h12.5m0 25h-12.5v15h-12.5"/>
     <g transform="translate(130 32.5)">
         <title>Final</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">HKE</text>
-        <text x="87.5" y="18">2</text>
-        <text x="37.5" y="43">FW</text>
-        <text x="87.5" y="43">3</text>
+        <text x="37.5" y="12.5">HKE</text>
+        <text x="87.5" y="12.5">2</text>
+        <text x="37.5" y="37.5">FW</text>
+        <text x="87.5" y="37.5">3</text>
     </g>
 </svg>

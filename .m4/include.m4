@@ -3,7 +3,7 @@ define(`startsvg', `dnl
     <style>
         /* <![CDATA[ */
         .line { fill: none; stroke: black; stroke-width: 1px; }
-        text { text-anchor: middle; }
+        text { text-anchor: middle; dominant-baseline: central; }
         /* ]]> */
     </style>'')dnl
 define(`endsvg', `</svg>')dnl
@@ -11,10 +11,10 @@ define(`box', `dnl
 `    <g transform="translate($1 $2)">
         <title>$3</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
-        <text x="37.5" y="18">$4</text>
-        <text x="87.5" y="18">$5</text>
-        <text x="37.5" y="43">$6</text>
-        <text x="87.5" y="43">$7</text>
+        <text x="37.5" y="12.5">$4</text>
+        <text x="87.5" y="12.5">$5</text>
+        <text x="37.5" y="37.5">$6</text>
+        <text x="87.5" y="37.5">$7</text>
     </g>'')dnl
 define(`fromup', ``    <path class="line" d="M$1 $2v12.5h12.5"/>'')dnl
 define(`ladder', ``    <path class="line" d="M$1 $2h12.5v$3h12.5"/>'')dnl
