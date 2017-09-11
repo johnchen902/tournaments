@@ -9,7 +9,7 @@
         <title>Round 1</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="12.5">H2K</text>
-        <text x="87.5" y="12.5">0</text>
+        <text x="87.5" y="12.5">3</text>
         <text x="37.5" y="37.5">SPY</text>
         <text x="87.5" y="37.5">0</text>
     </g>
@@ -18,17 +18,17 @@
         <title>Round 2</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="12.5">UOL</text>
-        <text x="87.5" y="12.5">0</text>
-        <text x="37.5" y="37.5"></text>
-        <text x="87.5" y="37.5">0</text>
+        <text x="87.5" y="12.5">2</text>
+        <text x="37.5" y="37.5">H2K</text>
+        <text x="87.5" y="37.5">3</text>
     </g>
     <path class="line" d="M230 55h12.5v-12.5h12.5"/>
     <g transform="translate(255 5)">
         <title>Final</title>
         <path class="line" d="M0 0H100V50H0ZM0 25H100M75 0V50"/>
         <text x="37.5" y="12.5">FNC</text>
-        <text x="87.5" y="12.5">0</text>
-        <text x="37.5" y="37.5"></text>
+        <text x="87.5" y="12.5">3</text>
+        <text x="37.5" y="37.5">H2K</text>
         <text x="87.5" y="37.5">0</text>
     </g>
 </svg>
