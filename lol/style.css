@@ -5,6 +5,15 @@ th, td {
     border: 1px solid black;
     text-align: center;
 }
+.matchtable th, .matchtable td {
+    border: none;
+}
+.winner {
+    background-color: lightgreen;
+}
+.loser  {
+    /* This class exists but has no style currently. */
+}
 .groups {
     display: flex;
     flex-wrap: wrap;
