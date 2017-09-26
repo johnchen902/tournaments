@@ -26,7 +26,7 @@ th, td {
     padding-left: 2ch;
     padding-right: 2ch;
 }
-.grouptable td:nth-child(3), .grouptable td:nth-child(4) {
+.grouptable td:nth-child(n+3) {
     /* Wins/Losses */
     min-width: 1ch;
     padding-left: 1ch;
