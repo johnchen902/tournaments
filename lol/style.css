@@ -5,19 +5,50 @@ th, td {
     border: 1px solid black;
     text-align: center;
 }
-.matchtable th, .matchtable td {
-    border: none;
-}
-.winner {
-    background-color: lightgreen;
-}
-.loser  {
-    /* This class exists but has no style currently. */
-}
 .groups {
     display: flex;
     flex-wrap: wrap;
 }
 .groups > * {
     margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.grouptable td:nth-child(1) {
+    /* Place */
+    min-width: 3ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+.grouptable td:nth-child(2) {
+    /* Team */
+    min-width: 5ch;
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+.grouptable td:nth-child(3), .grouptable td:nth-child(4) {
+    /* Wins/Losses */
+    min-width: 1ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+
+.matchbox td:nth-child(1), .matchbox td:nth-child(4) {
+    /* Team */
+    min-width: 5ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+.matchbox td:nth-child(2), .matchbox td:nth-child(3) {
+    /* Score */
+    min-width: 1ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+
+.winner {
+    background-color: lightgreen;
+}
+.loser {
+    /* This class exists but has no style currently. */
 }
