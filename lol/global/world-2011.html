@@ -23,60 +23,89 @@
       <div class="groups">
       <section>
         <h3>Group A</h3>
-        <table>
-          <tr><th>Place</th><th>Team</th><th>W &ndash; L</th></tr>
-          <tr><td>1<sup>st</sup></td><td>EG</td><td>3 &ndash; 0</td></tr>
-          <tr><td>2<sup>nd</sup></td><td>AAA</td><td>2 &ndash; 1</td></tr>
-          <tr><td>3<sup>rd</sup></td><td>FNC</td><td>1 &ndash; 2</td></tr>
-          <tr><td>4<sup>th</sup></td><td>TP</td><td>0 &ndash; 3</td></tr>
+        <table class="grouptable">
+          <tr><th>Place<th>Team<th>W<th>L
+          <tr><td>1<td>EG<td>3<td>0
+          <tr><td>2<td>AAA<td>2<td>1
+          <tr><td>3<td>FNC<td>1<td>2
+          <tr><td>4<td>TP<td>0<td>3
         </table>
       </section>
       <section>
         <h3>Group B</h3>
-        <table>
-          <tr><th>Place</th><th>Team</th><th>W &ndash; L</th></tr>
-          <tr><td>1<sup>st</sup></td><td>TSM</td><td>2 &ndash; 1</td></tr>
-          <tr><td>2<sup>nd</sup></td><td>CLG</td><td>2 &ndash; 1</td></tr>
-          <tr><td>3<sup>rd</sup></td><td>TGD</td><td>1 &ndash; 2</td></tr>
-          <tr><td>4<sup>th</sup></td><td>XAN</td><td>1 &ndash; 2</td></tr>
+        <table class="grouptable">
+          <tr><th>Place<th>Team<th>W<th>L
+          <tr><td>1<td>TSM<td>2<td>1
+          <tr><td>2<td>CLG<td>2<td>1
+          <tr><td>3<td>TGD<td>1<td>2
+          <tr><td>4<td>XAN<td>1<td>2
         </table>
       </section>
       </div>
     </section>
     <section>
       <h2>Playoffs</h2>
-      <object type="image/svg+xml" data="world-2011.svg">
-        <section>
-          <h3>Relegation</h3>
-          AAA 2:0 TGD<br>
-          CLG 1:2 FNG<br>
-        </section>
-        <section>
-          <h3>Fifth place match</h3>
-          TGD 0:1 CLG<br>
-        </section>
-        <section>
-          <h3>Winners' Semifinal</h3>
-          AAA 2:0 TSM<br>
-          EG 0:2 FNC<br>
-        </section>
-        <section>
-          <h3>Losers' Semifinal</h3>
-          TSM 2:0 EG<br>
-        </section>
-        <section>
-          <h3>Winners' Final</h3>
-          AAA 0:2 FNC<br>
-        </section>
-        <section>
-          <h3>Losers' Final</h3>
-          AAA 2:0 TSM<br>
-        </section>
-        <section>
-          <h3>Grand Final</h3>
-          FNC 2:1 AAA
-        </section>
-      </object>
+      <img src="world-2011.svg" alt="" style="width:100%; max-width: 497.5px">
+      <section>
+        <h3>Relegation</h3>
+        <div class="groups">
+          <div>
+            <table class="matchbox">
+              <tr><td class="winner">AAA<td>2<td>0<td class="loser">TGD
+            </table>
+          </div>
+          <div>
+            <table class="matchbox">
+              <tr><td class="loser">CLG<td>1<td>2<td class="winner">FNC
+            </table>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>Fifth place match</h3>
+        <table class="matchbox">
+          <tr><td class="loser">TGD<td>0<td>1<td class="winner">CLG
+        </table>
+      </section>
+      <section>
+        <h3>Winners' Semifinal</h3>
+        <div class="groups">
+          <div>
+            <table class="matchbox">
+              <tr><td class="winner">AAA<td>2<td>0<td class="loser">TSM
+            </table>
+          </div>
+          <div>
+            <table class="matchbox">
+              <tr><td class="loser">EG<td>0<td>2<td class="winner">FNC
+            </table>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>Losers' Semifinal</h3>
+        <table class="matchbox">
+          <tr><td class="winner">TSM<td>2<td>0<td class="loser">EG
+        </table>
+      </section>
+      <section>
+        <h3>Winners' Final</h3>
+        <table class="matchbox">
+          <tr><td class="loser">AAA<td>0<td>2<td class="winner">FNC
+        </table>
+      </section>
+      <section>
+        <h3>Losers' Final</h3>
+        <table class="matchbox">
+          <tr><td class="winner">AAA<td>2<td>0<td class="loser">TSM
+        </table>
+      </section>
+      <section>
+        <h3>Grand Final</h3>
+        <table class="matchbox">
+          <tr><td class="winner">FNC<td>2<td>1<td class="loser">AAA
+        </table>
+      </section>
     </section>
   </body>
 </html>
