@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LMS 2015 Spring</title>
     <meta charset="utf-8">
+    <title>LMS 2015 Spring</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../style.css">
   </head>
@@ -10,34 +10,48 @@
     <h1>League of Legends Master Series 2015 Spring</h1>
     <section>
       <h2>Regular Season</h2>
-      <table>
-        <tr><th>Place</th><th>Team</th><th>W &ndash; L</th></tr>
-        <tr><td>1<sup>st</sup></td><td>YFW</td><td>19 &ndash; 2</td></tr>
-        <tr><td>2<sup>nd</sup></td><td>TPA</td><td>17 &ndash; 4</td></tr>
-        <tr><td>3<sup>rd</sup></td><td>HKE</td><td>15 &ndash; 6</td></tr>
-        <tr><td>4<sup>th</sup></td><td>AHQ</td><td>13 &ndash; 8</td></tr>
-        <tr><td>5<sup>th</sup></td><td>LGS</td><td>8 &ndash; 13</td></tr>
-        <tr><td>6<sup>th</sup></td><td>MSE</td><td>6 &ndash; 15</td></tr>
-        <tr><td>7<sup>th</sup></td><td>NGU</td><td>6 &ndash; 15</td></tr>
-        <tr><td>8<sup>th</sup></td><td>DOR</td><td>0 &ndash; 21</td></tr>
+      <table class="grouptable widewl">
+        <tr><th>Place<th>Team
+            <th><abbr title="Wins">W</abbr>
+            <th><abbr title="Losses">L</abbr>
+        <tr><td>1<td>YFW<td>19<td>2
+        <tr><td>2<td>TPA<td>17<td>4
+        <tr><td>3<td>HKE<td>15<td>6
+        <tr><td>4<td>AHQ<td>13<td>8
+        <tr><td>5<td>LGS<td>8<td>13
+        <tr><td>6<td>MSE<td>6<td>15
+        <tr><td>7<td>NGU<td>6<td>15
+        <tr><td>8<td>DOR<td>0<td>21
       </table>
     </section>
     <section>
       <h2>Playoffs</h2>
-      <object type="image/svg+xml" data="lms-2015-spring.svg">
+      <div class="groups">
         <section>
-          <h3>Quarterfinal</h3>
-          HKE 0 : 3 AHQ
+          <h3>Round 1</h3>
+          <div>
+            <table class="matchbox">
+              <tr><td class="loser">HKE<td>0<td>3<td class="winner">AHQ
+            </table>
+          </div>
         </section>
         <section>
-          <h3>Semifinal</h3>
-          TPA 0 : 3 AHQ
+          <h3>Round 2</h3>
+          <div>
+            <table class="matchbox">
+              <tr><td class="loser">TPA<td>0<td>3<td class="winner">AHQ
+            </table>
+          </div>
         </section>
         <section>
           <h3>Final</h3>
-          YFW 1 : 3 AHQ
+          <div>
+            <table class="matchbox">
+              <tr><td class="loser">YFW<td>1<td>3<td class="winner">AHQ
+            </table>
+          </div>
         </section>
-      </object>
+      </div>
     </section>
   </body>
 </html>

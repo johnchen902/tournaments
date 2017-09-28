@@ -32,6 +32,9 @@ th, td {
     padding-left: 1ch;
     padding-right: 1ch;
 }
+.grouptable.widewl td:nth-child(n+3) {
+    min-width: 2ch;
+}
 
 .matchbox td:nth-child(1), .matchbox td:nth-child(4) {
     /* Team */
