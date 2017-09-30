@@ -10,16 +10,21 @@
     <h1>League of Legends Champions Korea 2015 Spring</h1>
     <section>
       <h2>Regular Season</h2>
-      <table>
-        <tr><th>Place</th><th>Team</th><th>Series<br>W &ndash; L</th><th>Games<br>W &ndash; L</th><th>Points</th></tr>
-        <tr><td>1<sup>st</sup></td><td>GET</td><td>12 &ndash; 2</td><td>25 &ndash; 6</td><td>+19</td></tr>
-        <tr><td>2<sup>nd</sup></td><td>SKT</td><td>11 &ndash; 3</td><td>23 &ndash; 9</td><td>+13</td></tr>
-        <tr><td>3<sup>rd</sup></td><td>CJE</td><td>10 &ndash; 4</td><td>20 &ndash; 12</td><td>+8</td></tr>
-        <tr><td>4<sup>th</sup></td><td>JAG</td><td>7 &ndash; 7</td><td>17 &ndash; 15</td><td>+2</td></tr>
-        <tr><td>5<sup>th</sup></td><td>KT</td><td>6 &ndash; 8</td><td>15 &ndash; 18</td><td>&minus;3</td></tr>
-        <tr><td>6<sup>th</sup></td><td>NJE</td><td>5 &ndash; 9</td><td>14 &ndash; 19</td><td>&minus;5</td></tr>
-        <tr><td>7<sup>th</sup></td><td>IM</td><td>3 &ndash; 11</td><td>8 &ndash; 23</td><td>&minus;15</td></tr>
-        <tr><td>8<sup>th</sup></td><td>SSG</td><td>2 &ndash; 12</td><td>6 &ndash; 26</td><td>&minus;20</td></tr>
+      <table class="grouptable widewl">
+        <tr><th>Place<th>Team
+            <th><abbr title="Matches won">W</abbr>
+            <th><abbr title="Matches lost">L</abbr>
+            <th><abbr title="Games won">W'</abbr>
+            <th><abbr title="Games lost">L'</abbr>
+            <th><abbr title="Points">P</abbr>
+        <tr><td>1<td>GET<td>12<td>2<td>25<td>6<td>+19
+        <tr><td>2<td>SKT<td>11<td>3<td>23<td>9<td>+13
+        <tr><td>3<td>CJE<td>10<td>4<td>20<td>12<td>+8
+        <tr><td>4<td>JAG<td>7<td>7<td>17<td>15<td>+2
+        <tr><td>5<td>KT<td>6<td>8<td>15<td>18<td>&minus;3
+        <tr><td>6<td>NJE<td>5<td>9<td>14<td>19<td>&minus;5
+        <tr><td>7<td>IM<td>3<td>11<td>8<td>23<td>&minus;15
+        <tr><td>8<td>SSG<td>2<td>12<td>6<td>26<td>&minus;20
       </table>
       <section>
         SKT received 1-point penalty.
@@ -27,20 +32,32 @@
     </section>
     <section>
       <h2>Playoffs</h2>
-      <object type="image/svg+xml" data="lck-2015-spring.svg">
+      <div class="groups">
         <section>
           <h3>Round 1</h3>
-          CJE 3 : 0 JAG
+          <div>
+            <table class="matchbox">
+              <tr><td class="winner">CJE<td>3<td>0<td class="loser">JAG
+            </table>
+          </div>
         </section>
         <section>
           <h3>Round 2</h3>
-          SKT 3 : 2 CJE
+          <div>
+            <table class="matchbox">
+              <tr><td class="winner">SKT<td>3<td>2<td class="loser">CJE
+            </table>
+          </div>
         </section>
         <section>
           <h3>Final</h3>
-          GET 0 : 3 SKT
+          <div>
+            <table class="matchbox">
+              <tr><td class="loser">GET<td>0<td>3<td class="winner">SKT
+            </table>
+          </div>
         </section>
-      </object>
+      </div>
     </section>
   </body>
 </html>

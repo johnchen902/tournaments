@@ -10,18 +10,23 @@
     <h1>League of Legends Champions Korea 2016 Spring</h1>
     <section>
       <h2>Regular Season</h2>
-      <table>
-        <tr><th>Place</th><th>Team</th><th>Series<br>W &ndash; L</th><th>Games<br>W &ndash; L</th><th>Points</th></tr>
-        <tr><td>1<sup>st</sup></td><td>ROX</td><td>16 &ndash; 2</td><td>34 &ndash; 7</td><td>+27</td></tr>
-        <tr><td>2<sup>nd</sup></td><td>KT</td><td>13 &ndash; 5</td><td>29 &ndash; 14</td><td>+15</td></tr>
-        <tr><td>3<sup>rd</sup></td><td>SKT</td><td>12 &ndash; 6</td><td>26 &ndash; 15</td><td>+11</td></tr>
-        <tr><td>4<sup>th</sup></td><td>JAG</td><td>10 &ndash; 8</td><td>23 &ndash; 19</td><td>+4</td></tr>
-        <tr><td>5<sup>th</sup></td><td>AFS</td><td>10 &ndash; 8</td><td>24 &ndash; 22</td><td>+2</td></tr>
-        <tr><td>6<sup>th</sup></td><td>SSG</td><td>10 &ndash; 8</td><td>22 &ndash; 22</td><td>0</td></tr>
-        <tr><td>7<sup>th</sup></td><td>LZ</td><td>8 &ndash; 10</td><td>21 &ndash; 22</td><td>&minus;1</td></tr>
-        <tr><td>8<sup>th</sup></td><td>CJ</td><td>8 &ndash; 10</td><td>19 &ndash; 27</td><td>&minus;8</td></tr>
-        <tr><td>9<sup>th</sup></td><td>SSB</td><td>2 &ndash; 16</td><td>9 &ndash; 32</td><td>&minus;23</td></tr>
-        <tr><td>10<sup>th</sup></td><td>KDM</td><td>1 &ndash; 17</td><td>8 &ndash; 35</td><td>&minus;27</td></tr>
+      <table class="grouptable widewl">
+        <tr><th>Place<th>Team
+            <th><abbr title="Matches won">W</abbr>
+            <th><abbr title="Matches lost">L</abbr>
+            <th><abbr title="Games won">W'</abbr>
+            <th><abbr title="Games lost">L'</abbr>
+            <th><abbr title="Points">P</abbr>
+        <tr><td>1<td>ROX<td>16<td>2<td>34<td>7<td>+27
+        <tr><td>2<td>KT<td>13<td>5<td>29<td>14<td>+15
+        <tr><td>3<td>SKT<td>12<td>6<td>26<td>15<td>+11
+        <tr><td>4<td>JAG<td>10<td>8<td>23<td>19<td>+4
+        <tr><td>5<td>AFS<td>10<td>8<td>24<td>22<td>+2
+        <tr><td>6<td>SSG<td>10<td>8<td>22<td>22<td>0
+        <tr><td>7<td>LZ<td>8<td>10<td>21<td>22<td>&minus;1
+        <tr><td>8<td>CJ<td>8<td>10<td>19<td>27<td>&minus;8
+        <tr><td>9<td>SSB<td>2<td>16<td>9<td>32<td>&minus;23
+        <tr><td>10<td>KDM<td>1<td>17<td>8<td>35<td>&minus;27
       </table>
       <section>
         EMF renamed to KDM in week 6.
@@ -29,24 +34,40 @@
     </section>
     <section>
       <h2>Playoffs</h2>
-      <object type="image/svg+xml" data="lck-2016-spring.svg">
+      <div class="groups">
         <section>
           <h3>Round 1</h3>
-          JAG 2 : 0 AFS
+          <div>
+            <table class="matchbox">
+              <tr><td class="winner">JAG<td>2<td>0<td class="loser">AFS
+            </table>
+          </div>
         </section>
         <section>
           <h3>Round 2</h3>
-          SKT 3 : 1 JAG
+          <div>
+            <table class="matchbox">
+              <tr><td class="winner">SKT<td>3<td>1<td class="loser">JAG
+            </table>
+          </div>
         </section>
         <section>
           <h3>Round 3</h3>
-          KT 0 : 3 SKT
+          <div>
+            <table class="matchbox">
+              <tr><td class="loser">KT<td>0<td>3<td class="winner">SKT
+            </table>
+          </div>
         </section>
         <section>
           <h3>Final</h3>
-          ROX 1 : 3 SKT
+          <div>
+            <table class="matchbox">
+              <tr><td class="loser">ROX<td>1<td>3<td class="winner">SKT
+            </table>
+          </div>
         </section>
-      </object>
+      </div>
     </section>
   </body>
 </html>
