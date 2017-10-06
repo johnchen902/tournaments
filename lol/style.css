@@ -13,6 +13,9 @@ th, td {
     margin-right: 1em;
     margin-bottom: 0.5em;
 }
+.collapse-h3 {
+    margin-top: -1.17em
+}
 
 .grouptable td:nth-child(1) {
     /* Place */
