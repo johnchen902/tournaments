@@ -8,6 +8,7 @@ th, td {
 .groups {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: -0.5em;
 }
 .groups > * {
     margin-right: 1em;
