@@ -64,8 +64,8 @@ img {
 }
 
 .winner {
-    background-color: lightgreen;
+    background-color: #bfb;
 }
 .loser {
-    /* This class exists but has no style currently. */
+    background-color: #fbb;
 }
