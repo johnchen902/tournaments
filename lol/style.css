@@ -24,6 +24,9 @@ img {
     margin-right: 1em;
     margin-bottom: 0.5em;
 }
+.collapse-h2 {
+    margin-top: -1.245em
+}
 .collapse-h3 {
     margin-top: -1.17em
 }
@@ -50,6 +53,19 @@ img {
     min-width: 2ch;
 }
 
+.crosstable td:nth-child(1) {
+    /* Team */
+    min-width: 5ch;
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+.crosstable td:nth-child(n+2) {
+    /* Wins -- Losses */
+    min-width: 3ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+
 .matchbox td:nth-child(1), .matchbox td:nth-child(4) {
     /* Team */
     min-width: 5ch;
@@ -63,9 +79,12 @@ img {
     padding-right: 1ch;
 }
 
-.winner {
+.winner, .won {
     background-color: #bfb;
 }
-.loser {
+.loser, .lost {
     background-color: #fbb;
+}
+.tied {
+    background-color: #ffb;
 }
