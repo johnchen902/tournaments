@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MSI 2016</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #participants td:nth-child(3) {
+            text-align: left;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Mid-Season Invitational 2016</h1>
+    <section>
+      <h2>Participants</h2>
+      <table id="participants">
+        <tr><th>Region<th>Team<th>Full Team Name
+        <tr><td>KR    <td>SKT <td>SK Telecom T1
+        <tr><td>CN    <td>RNG <td>Royal Never Give Up
+        <tr><td>EU    <td>G2  <td>G2 Esports
+        <tr><td>NA    <td>CLG <td>Counter Logic Gaming
+        <tr><td>TW    <td>FW  <td>Flash Wolves
+        <tr><td>TR    <td>SUP <td>SuperMassive eSports
+      </table>
+    </section>
+    <section>
+      <h2>Group Stage</h2>
+      <table class="grouptable">
+        <tr><th>Place<th>Team            <th>W<th>L
+        <tr><td>1    <td class="won"> RNG<td>8<td>2
+        <tr><td>2    <td class="won"> CLG<td>7<td>3
+        <tr><td>3    <td class="won"> FW <td>6<td>4
+        <tr><td>4    <td class="won"> SKT<td>6<td>4
+        <tr><td>5    <td class="lost">G2 <td>2<td>8
+        <tr><td>6    <td class="lost">SUP<td>1<td>9
+      </table>
+      <details>
+        <summary>Crosstable</summary>
+        <table class="crosstable">
+          <tr><th>Team<th>RNG                   <th>CLG                   <th>FW                    <th>SKT                   <th>G2                    <th>SUP                   </tr>
+          <tr><td>RNG <td>                      <td class="tied">1&ndash;1<td class="won" >2&ndash;0<td class="tied">1&ndash;1<td class="won" >2&ndash;0<td class="won" >2&ndash;0</tr>
+          <tr><td>CLG <td class="tied">1&ndash;1<td>                      <td class="won" >2&ndash;0<td class="tied">1&ndash;1<td class="won" >2&ndash;0<td class="tied">1&ndash;1</tr>
+          <tr><td>FW  <td class="lost">0&ndash;2<td class="lost">0&ndash;2<td>                      <td class="won" >2&ndash;0<td class="won" >2&ndash;0<td class="won" >2&ndash;0</tr>
+          <tr><td>SKT <td class="tied">1&ndash;1<td class="tied">1&ndash;1<td class="lost">0&ndash;2<td>                      <td class="won" >2&ndash;0<td class="won" >2&ndash;0</tr>
+          <tr><td>G2  <td class="lost">0&ndash;2<td class="lost">0&ndash;2<td class="lost">0&ndash;2<td class="lost">0&ndash;2<td>                      <td class="won" >2&ndash;0</tr>
+          <tr><td>SUP <td class="lost">0&ndash;2<td class="tied">1&ndash;1<td class="lost">0&ndash;2<td class="lost">0&ndash;2<td class="lost">0&ndash;2<td>                      </tr>
+        </table>
+      </details>
+    </section>
+    <section>
+      <h2>Knockout Stage</h2>
+      <section>
+        <h3>Semifinal</h3>
+        <div class="groups">
+          <div>
+            <table class="matchbox">
+              <tr><td class="lost">RNG<td>1<td>3<td class="won">SKT
+            </table>
+          </div>
+          <div>
+            <table class="matchbox">
+              <tr><td class="won">CLG<td>3<td>1<td class="lost">FW
+            </table>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>Final</h3>
+        <div>
+          <table class="matchbox">
+            <tr><td class="won">SKT<td>3<td>0<td class="lost">CLG
+          </table>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
